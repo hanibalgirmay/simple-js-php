@@ -1,3 +1,38 @@
 body {
-    background-color: aquamarine;
+  // background-color: aquamarine;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+//   min-height: 100vh;
+
+  .title {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-transform: capitalize;
+  }
+  form {
+    width: 600px;
+
+    input {
+      width: 100%;
+      background-color: #fff;
+      padding: 1rem 2rem;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      box-shadow: 6px 2px 16px 3px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  #results{
+    background-color: #ffd;
+    margin-top: 0px !important;
+    // width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+  }
 }
