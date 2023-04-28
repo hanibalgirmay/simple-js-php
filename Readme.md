@@ -8,6 +8,10 @@ The aim is to build a simple search suggestion like google. I.E as user is typin
 The flow should look like this:
 User types into UI (on keystroke) -> Use JS to make an ajax request to PHP Proxy -> PHP proxy makes request to the api -> PHP proxy sends response -> Use JS to filer the response and show relevant results
 
+## Answer
+![image](screenshoot/Screenshot%20(214).png)
+![image](screenshoot/Screenshot%20(215).png)
+
 Use node 16
 
 1. Figure out how to run the project
